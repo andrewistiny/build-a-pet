@@ -33,7 +33,7 @@ addEventListener "Button" | An event that occurs when a button is clicked.
 
 ### Part I File Structure
 
-To complete Part I, fulfill the following requirements:
+To complete Part I, fulfill the following requirements:j
 1. Set up your project file structure through the command line.
 2. Create the following:
 * HTML file

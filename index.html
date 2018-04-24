@@ -1,14 +1,16 @@
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
+    <h1>Build aw- A - Pet</h1>
     <form action="" id="form">
     <div id="formcss">
-    <div>Build a Pet!</div>
     <br>
     <div>Pet Name: </div>
     <input type="text" id="name">
@@ -22,37 +24,48 @@
     </select>
     <br>
     <div>Number Of Legs</div>
-    <input type="radio" name="legs" value="2" id="2"> 2
-    <input type="radio" name="legs" value="4" id="4"> 4
-    <input type="radio" name="legs" value="6" id="6"> 6
-    <input type="radio" name="legs" value="8" id="8"> 8
+    <input class = "legs" type="radio" name="legs" value="2"> 2
+    <input class = "legs" type="radio" name="legs" value="4"> 4
+    <input class = "legs" type="radio" name="legs" value="6"> 6
+    <input class = "legs" type="radio" name="legs" value="8"> 8
 
     <div>Special Abilities</div>
-    <input type="checkbox" name="powers" value="speed" > Super Speed <br>
-    <input type="checkbox" name="powers" value="speech" > Speech <br>
-    <input type="checkbox" name="powers" value="flight" > Flying <br>
-    <input type="checkbox" name="powers" value="money" > Made of Money  <br>
+    <input class="abilities" type="checkbox" name="powers" value="speed" > Super Speed <br>
+    <input class="abilities" type="checkbox" name="powers" value="speech" > Speech <br>
+    <input class="abilities" type="checkbox" name="powers" value="flight" > Flying <br>
+    <input class="abilities" type="checkbox" name="powers" value="money" > Made of Money  <br>
 
     <div>Pet's Email: </div>
-    <input type="email" name="usremail">
+    <input type="email" name="usremail" id="email">
 
     <br>
 
     <div>Pet's Password</div>
-    <input type="password" name="password">
+    <input type="password" name="password" id="password">
 
     <br>
 
     <div>Pet Description: </div>
-    <textarea name="desc" cols="30" rows="10"></textarea>
+    <textarea name="desc" cols="30" rows="10" id="desc"></textarea>
     <br>
     <input type="submit" value="submit">
-    <button id="SeeData">See Data</button>
     </form>
     </div>
+    <div id= "result">
+        <!-- <ul>
+            <li id = "name"></li>
+            <li id = "type"></li>
+            <li id = "legs"></li>
+            <li id = "abilities"></li>
+            <li id = "email"></li>
+            <li id = "password"></li>
+            <li id = "desc"></li>
+        </ul> -->
+    </div>
+    
 
 
-    <link rel="stylesheet" href="style.css">
+
     <script src="app.js"></script>
 </body>
 </html>

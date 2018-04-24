@@ -1,0 +1,19 @@
+#formcss {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    background-color: white;
+    border: rgb(0, 0, 0) solid;
+    padding-bottom: 30px;
+    margin-left: 800px;
+    margin-right:800px;
+    font-size: 25px;
+}
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 840px;
+    margin-left: 840px;
+    background-color: white;
+    border: black solid;
+    font-family: 'Berkshire Swash', cursive;
+}
